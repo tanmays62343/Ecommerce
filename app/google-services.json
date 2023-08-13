@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "744333830525",
+    "project_id": "foodorder-dd4af",
+    "storage_bucket": "foodorder-dd4af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744333830525:android:9a2070bbf8dc9c4fb88414",
+        "android_client_info": {
+          "package_name": "com.TrX"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744333830525-fu7i7v94c902i0gneakh7h8ld1c4erlj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKOKW11BO4w-mFaI9-pE-wfxUj5_C56ks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744333830525-fu7i7v94c902i0gneakh7h8ld1c4erlj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
