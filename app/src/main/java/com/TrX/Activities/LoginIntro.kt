@@ -1,9 +1,8 @@
-package com.TrX
+package com.TrX.Activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.LayoutInflater
 import android.widget.Toast
 import com.TrX.databinding.ActivityLoginIntroBinding
 import com.google.firebase.auth.FirebaseAuth
@@ -30,8 +29,8 @@ class LoginIntro : AppCompatActivity() {
 
     private fun redirect(name:String){
         val intent = when(name){
-            "LOGIN" -> Intent(this,LoginActivity::class.java)
-            "MAIN" -> Intent(this,MainActivity::class.java)
+            "LOGIN" -> Intent(this, LoginActivity::class.java)
+            "MAIN" -> Intent(this, MainActivity::class.java)
             else -> throw Exception("No path exists")
         }
         startActivity(intent)

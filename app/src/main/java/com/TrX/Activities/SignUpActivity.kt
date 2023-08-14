@@ -1,11 +1,10 @@
-package com.TrX
+package com.TrX.Activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import com.TrX.databinding.ActivitySignUpBinding
-import com.google.firebase.FirebaseApp
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
@@ -25,7 +24,7 @@ class SignUpActivity : AppCompatActivity() {
         }
 
         binding?.tvLogin?.setOnClickListener {
-            val intent = Intent(this,LoginActivity::class.java)
+            val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
             finish()
         }
@@ -50,7 +49,7 @@ class SignUpActivity : AppCompatActivity() {
             .addOnCompleteListener(this) {
                 if(it.isSuccessful){
                     Toast.makeText(this, "User Created", Toast.LENGTH_SHORT).show()
-                    val intent = Intent(this,MainActivity::class.java)
+                    val intent = Intent(this, MainActivity::class.java)
                     startActivity(intent)
                     finish()
                 }
